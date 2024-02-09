@@ -51,7 +51,7 @@ def get_mood(input_text, threshold):
 def get_comments(vidID):
     api_service_name = "youtube"
     api_version = "v3"
-    DEVELOPER_KEY = "AIzaSyBYPNUXqgnRg1-5tnZsn_lbVib-WjG6IAM"
+    DEVELOPER_KEY = ${{ secrets.DEVELOPER_KEY }}
 
     youtube = googleapiclient.discovery.build(
     api_service_name, api_version, developerKey=DEVELOPER_KEY)
