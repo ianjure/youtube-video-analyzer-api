@@ -1,0 +1,4 @@
+Flask
+Textblob
+google-api-python-client
+Gunicorn
