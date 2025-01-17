@@ -2,4 +2,4 @@ This is a simple Flask API that I deployed on Render that serves as the back-end
 
 Libraries Used:
 - Google API Client
-- Textblob
+- TextBlob
